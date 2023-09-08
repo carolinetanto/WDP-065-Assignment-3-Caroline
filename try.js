@@ -1,7 +1,7 @@
 function getCountryData() {
     const countryInput = document.getElementById('countryInput').value;
   
-    fetch(`https://covid-193.p.rapidapi.com/statistics?country=${countryInput}`, {
+    fetch(`https://covid-193.p.rapidapi.com/history?country=${countryInput}`, {
         method: 'GET',
         headers: {
         'x-rapidapi-host': 'covid-193.p.rapidapi.com',
