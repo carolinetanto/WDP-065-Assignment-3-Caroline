@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>COVID-19 Statistics</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="important">
+        <h2>COVID-19 TRACKER</h2>
+        <input type="text" id="countryInput" placeholder="Enter country name">
+        <button onclick="getCountryData()">Get Data</button>
+        <h2 id="countryName"></h2>
+        <div class="result">
+            <div class="row">
+                <div class="box" style="background-color: rgb(33, 121, 91);">
+                    <p>Active Cases</p>
+                    <b id="activeCases">0</b>
+                </div>
+                <div class="box" style="background-color: rgb(89, 173, 145);">
+                    <p>New Cases</p>
+                    <b id="newCases">0</b>
+                </div>
+                <div class="box" style="background-color: rgb(125, 243, 204);">
+                    <p>Recovered Cases</p>
+                    <b id="recoveredCases">0</b>
+                </div>
+            </div>
+            <div class="row">
+                <div class="box" style="background-color: rgb(121, 167, 151);">
+                    <p>Total Cases</p>
+                    <b id="totalCases">0</b>
+                </div>
+                <div class="box" style="background-color: rgb(153, 190, 178);">
+                    <p>Total Deaths</p>
+                    <b id="totalDeaths">0</b>
+                </div>
+                <div class="box" style="background-color: rgb(209, 247, 234);">
+                    <p>Total Tests</p>
+                    <b id="totalTests">0</b>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+  <script src="try.js"></script>
+</body>
+</html>
